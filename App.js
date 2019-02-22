@@ -36,7 +36,7 @@ export default class App extends Component {
 
   componentDidMount() {
     this.registerCallbacks();
-    AgoraRtcEngine.createEngine("YOUR_APP_ID");
+    AgoraRtcEngine.createEngine("7103fa3f1aaf46f38135c82ab6e4b3ec");
 
     AgoraRtcEngine.enableVideo();
     AgoraRtcEngine.enableAudio();
